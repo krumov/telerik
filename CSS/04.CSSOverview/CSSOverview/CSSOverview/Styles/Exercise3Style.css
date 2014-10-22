@@ -1,0 +1,42 @@
+﻿header h1 {
+    text-align:center;
+    color:Khaki;
+    font-size:2.5em;
+}
+article h1 {
+    text-align:left;
+    font-size:2em;
+}
+a {
+    text-decoration:none;
+    color:black
+}
+nav a {
+    color:#eeefcc;    
+}
+nav ul {
+    text-align:center;
+    font-size:1.5em;
+    font-weight:bold;
+    list-style-type:none;
+
+}
+
+.current {
+    background-color:#e1dbad;
+}
+.underlined {
+    text-decoration:underline;
+}
+
+
+body {
+    background-color:#A99D7E;
+}
+footer {
+    text-align:center;
+}
+article footer {
+    text-align:left;
+    font-size:13px;
+}

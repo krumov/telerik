@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. 3DPoint", "01. 3DPoint\01. 3DPoint.csproj", "{53B0A609-67E7-44BC-B0C7-12334A2AD76B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. GenericList", "02. GenericList\02. GenericList.csproj", "{61829938-EF7E-48AC-84AF-5103394EF420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Matrix", "03. Matrix\03. Matrix.csproj", "{7BA8A32F-B771-4F38-8AA9-9B86419F3FF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53B0A609-67E7-44BC-B0C7-12334A2AD76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B0A609-67E7-44BC-B0C7-12334A2AD76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B0A609-67E7-44BC-B0C7-12334A2AD76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B0A609-67E7-44BC-B0C7-12334A2AD76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61829938-EF7E-48AC-84AF-5103394EF420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61829938-EF7E-48AC-84AF-5103394EF420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61829938-EF7E-48AC-84AF-5103394EF420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61829938-EF7E-48AC-84AF-5103394EF420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BA8A32F-B771-4F38-8AA9-9B86419F3FF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BA8A32F-B771-4F38-8AA9-9B86419F3FF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BA8A32F-B771-4F38-8AA9-9B86419F3FF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BA8A32F-B771-4F38-8AA9-9B86419F3FF1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

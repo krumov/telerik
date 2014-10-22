@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <script src="libs/jquery-2.1.1.min.js"></script>
+    <script src="libs/handlebars-v1.3.0.js"></script>
+    <script src="scripts/01.table.js"></script>
+    <style>
+        table,th,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+<div id='table'>
+</div>
+</body>
+<script id="table-template" type="text/x-handlebars-template">
+    <table>
+        <tr>
+            <th>Num.</th><th>Title</th><th>Date #1</th><th>Date #2</th>
+        </tr>
+        {{#rows}}
+            <tr>
+                <td>{{number}}</td>
+                <td>{{title}}</td>
+                <td>{{date1}}</td>
+                <td>{{date2}}</td>
+            </tr>
+        {{/rows}}
+    </table>
+</script>
+<script>
+    var post = generateData(10);
+    var tableTemplate = document.getElementById('table-template').innerHTML;
+    var hbTemplate = Handlebars.compile(tableTemplate);
+    document.getElementById('table').innerHTML = hbTemplate(post);
+</script>
+</html>

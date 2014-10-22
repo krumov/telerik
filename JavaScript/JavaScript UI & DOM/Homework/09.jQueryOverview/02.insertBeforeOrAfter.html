@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script >
+        function insertBef(){
+            var $div = $("<div>").text("inserted after the button");
+            $div.insertBefore(".container");
+        }
+
+        function insertAfter(){
+            var div = $("<div>").text("inserted after the button");
+            div.insertAfter(".container");
+        }
+    </script>
+    <title></title>
+</head>
+<body>
+    <div class="container">
+        <button onclick="insertBef()">Insert div before the button</button>
+        <button onclick="insertAfter()">Insert div after the button</button>
+    </div>
+</body>
+</html>

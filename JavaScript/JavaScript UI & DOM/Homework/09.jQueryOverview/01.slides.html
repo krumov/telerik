@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="jquery-2.1.1.min.js"></script>
+    <script src="scripts/slides.js"></script>
+    <title>Slides</title>
+    <style>
+        #slider>img{
+            width:600px;
+            height:450px;
+            display:none;
+            border-radius:10px;
+        }
+        #slider {
+            width:600px;
+            height:450px;
+            overflow:hidden;
+        }
+        .buttons{
+            width: 600px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="slider">
+    <img id="1" src="http://shechive.files.wordpress.com/2010/10/cute-animals-221.jpg">
+    <img id="2" src="http://static1.beanscdn.co.uk/modules/ems-v2/article/featured/i_hid_why_nobody.jpg.jpg">
+    <img id="3" src="http://yosuaonesimus.files.wordpress.com/2010/07/cute-animal-4.jpg">
+    <img id="4" src="http://wallpapersus.com/wallpapers/2012/11/Cat-Cute-Animal-1024x1280.jpg">
+</div>
+<div class="buttons">
+    <button class="prev" onclick="onButPrev()">Previous</button>
+    <button class="next" onclick="onButNext()">Next</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+﻿body,
+div,
+nav,
+header,
+ul,
+li,
+a {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 26px;
+  font-family: Arial;
+}
+body #wrapper {
+    width: 860px;
+    height:100px;
+    background: -moz-linear-gradient( #1b3340 , #94cbdb );
+    background: -webkit-linear-gradient( #1b3340 , #94cbdb);
+    background: -o-linear-gradient( #1b3340 , #94cbdb );
+    background: -ms-linear-gradient( #1b3340 , #94cbdb );
+    background: linear-gradient(#1b3340 , #94cbdb );
+    padding:50px;
+}
+
+a{
+    text-decoration:none;
+    color: black;
+}
+
+nav > ul{
+     position:relative;
+     
+}
+
+nav > ul li{
+     padding:5px;
+}
+
+
+li {
+    display:inline-block;
+    
+}
+
+.selected{
+    background-color:rgba(50,75,84,0.8);
+    border-radius:10px;
+}
+
+nav>ul>li:hover{
+    background-color:rgba(51,90,112,0.8);
+    border-radius:10px;
+}
+
+.selected>ul{
+    display:block;
+    position:absolute;
+    left:0;
+   
+}
+
+.selected>ul li:hover{
+    background-color: rgba(57,99,121,0.8);
+    border-radius:10px;
+}
+
+li ul{
+    display:none;
+}
+
+ul li ul li:hover ul{
+    display:block;
+    position:absolute; 
+    background: -moz-linear-gradient( #fffadb , #96cede );
+    background: -webkit-linear-gradient( #fffadb , #96cede);
+    background: -o-linear-gradient( #fffadb , #96cede );
+    background: -ms-linear-gradient( #fffadb , #96cede );
+    background: linear-gradient(#fffadb , #96cede );
+    border-radius:10px;
+    padding:10px 20px;
+
+}
+
+ul li ul li ul li{
+    display:block;
+    border-bottom:1px solid black;
+}
+
+ul li ul li ul li:last-of-type{
+    border-bottom:none;
+}

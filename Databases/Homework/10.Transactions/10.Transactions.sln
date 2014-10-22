@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMDatabase.Model", "ATMDatabase.Model\ATMDatabase.Model.csproj", "{AB399F51-B3DF-4775-B60D-EC9B12BADF5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATMDatabase.Context", "ATMDatabase.Context\ATMDatabase.Context.csproj", "{30641E20-5137-45A4-808D-15E27C0F8626}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM.ConsoleClient", "ATM.ConsoleClient\ATM.ConsoleClient.csproj", "{160CDFD2-0C79-452A-9AE3-73B404FF145E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AB399F51-B3DF-4775-B60D-EC9B12BADF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB399F51-B3DF-4775-B60D-EC9B12BADF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB399F51-B3DF-4775-B60D-EC9B12BADF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB399F51-B3DF-4775-B60D-EC9B12BADF5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30641E20-5137-45A4-808D-15E27C0F8626}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30641E20-5137-45A4-808D-15E27C0F8626}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30641E20-5137-45A4-808D-15E27C0F8626}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30641E20-5137-45A4-808D-15E27C0F8626}.Release|Any CPU.Build.0 = Release|Any CPU
+		{160CDFD2-0C79-452A-9AE3-73B404FF145E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160CDFD2-0C79-452A-9AE3-73B404FF145E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160CDFD2-0C79-452A-9AE3-73B404FF145E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160CDFD2-0C79-452A-9AE3-73B404FF145E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

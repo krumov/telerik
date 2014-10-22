@@ -1,0 +1,11 @@
+Regarding Task 1 - solar system app
+
+You can see the difference in performance in the before and after screenshots - 25% CPU usage before and minimal CPU usage after. 
+
+The problem: 
+- OrbitsCalculator.cs 
+- line: 96
+
+The entire for cycle is not needed and using decimal in it further slows everything down.
+
+Tasks 2 and 3 are in a separate solution and the tests are done with the Stopwatch in VS

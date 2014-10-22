@@ -1,0 +1,94 @@
+﻿html,
+body,
+div,
+p,
+a,
+input,
+ul,
+li,
+fieldset,
+button,
+input,
+select,
+option,
+textarea {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+  color: #333333;
+}
+
+.invisible{
+    display:none;
+}
+
+ul{
+    margin:15px;
+    list-style-type:none;
+    width:110px;
+}
+
+img{
+    width:25px;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+}
+
+li{
+    padding:5px;
+    border-top:1px solid black;
+    position:relative;
+}
+li:last-of-type{
+    border-bottom:1px solid black;
+}
+
+.current {    
+   font-weight:bold;     
+}
+
+li div{
+    position:absolute;
+    display:inline-block;
+    margin-left:20px;
+    
+}
+fieldset{
+    width:180px;
+    padding:20px;
+}
+legend{
+    font-weight:bold;
+    font-size:1.1em;
+}
+
+.btn-popup-close{
+    border:1px solid black;
+    border-radius:5px;
+    width:15px;
+    margin-left:210px;
+    margin-top:15px;
+    position:absolute;
+    text-align:center;
+}
+
+.btn-popup-close:hover{
+    text-decoration:underline;
+}
+
+button{
+    border:none;
+    border-radius:15px;
+    background:-webkit-linear-gradient(top,  #d2c3a9 0%, #6f6759 100%);
+    padding:5px 10px;
+}
+button:hover{
+    background:#d8c9ae;
+}
+

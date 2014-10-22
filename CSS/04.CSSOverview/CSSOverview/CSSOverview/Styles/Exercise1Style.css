@@ -1,0 +1,36 @@
+﻿body {
+    background-color:#808080;
+    font-family: Arial;
+}
+thead {
+    font-size:120%;
+    color:lightgray;
+    text-align:left;
+    justify-content:flex-start;
+        
+}
+td {
+    color:lightgray;
+}
+.info {
+    font-style:italic;
+    color:white;
+}
+span.circle
+{
+    border-radius: 50%;
+    width: 2px;
+    height: 2px;
+    background-color: #71b47a;
+}
+.red {
+    color:red;
+}
+a {
+    text-decoration:none;
+    color:beige;
+}
+.status
+{
+    color: orange;
+}

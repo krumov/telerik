@@ -1,0 +1,18 @@
+Connection string for "Company" database: from the app.config in the solution: data source=.;
+Connection string for "Cars" database: the same
+
+Relationships for "Company" database: 
+Employees-Departments -> one to many
+Emplyees-Projects -> many to many
+Employees-Employees -> one (managerId) to many (emplyeeId)
+Deparments-Empyees -> (managerId) one to many (employeeId)
+Employees-Report -> one to many
+
+
+Relationships for "Cars" database: (first-table : second-table - type of relationship)
+City - Dealer -> one to many 
+Dealer - Cars -> one to many
+Mnufacturer - Cars -> one to many, but it does not WORK!!! i dont know why- i asked Doncho and he said that it SHOULD work :(
+
+
+Query files: (file location in solution)

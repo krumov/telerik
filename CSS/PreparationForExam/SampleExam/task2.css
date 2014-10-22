@@ -1,0 +1,80 @@
+﻿html,
+body,
+div,
+form,
+input,
+button,
+a {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: #000000;
+  font-size: 16px;
+  font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+}
+body div#wrapper {
+  width: 960px;
+  margin-left: 50px;
+}
+
+.invisible{
+    display:none;
+}
+
+.current{
+    font-weight:bold;
+}
+
+.btn-login-form{
+    text-decoration:none;
+    color:black;
+}
+.btn-login-form:hover{
+    color:gray;
+}
+
+fieldset{
+    text-align:right;
+    padding-right:50px;
+    width:350px;
+    background:-webkit-linear-gradient(top, #fff9d9 0%, #5f594d 100%);
+    background:-moz-linear-gradient(top,  #fff9d9 0%, #5f594d 100%);
+    border:3px solid black;
+    border-radius:5px;
+}
+
+legend{
+    font-weight:bold;
+    font-size:1.3em;
+    font-style:italic;
+    margin-right:50px;
+    background:#fff9d9;
+}
+
+input[type=text], input[type=password]{
+    height:20px;
+    color:white;
+    background: #080808; /* Old browsers */
+    background: -moz-linear-gradient(top,  #080808 0%, #cacaca 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#080808), color-stop(100%,#cacaca)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #080808 0%,#cacaca 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #080808 0%,#cacaca 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #080808 0%,#cacaca 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #080808 0%,#cacaca 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#080808', endColorstr='#cacaca',GradientType=0 ); /* IE6-9 */
+    border-radius:15px;
+    padding:10px 10px;
+    border:none;
+    margin:5px;
+}
+
+button{
+    background:-webkit-linear-gradient(top,  #1c1a16 0%, #fff5d5 100%);
+    background:-moz-linear-gradient(top,  #1c1a16 0%, #fff5d5 100%);
+    border:1px solid black;
+    border-radius:10px;
+    padding:5px 10px;
+    font-size:1.2em;
+}
+

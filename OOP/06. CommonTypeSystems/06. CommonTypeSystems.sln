@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Task1,2,3", "06. CommonTypeSystems\01. Task1,2,3.csproj", "{5014B2D8-FDE9-4E0F-9B47-AE8301FDC84A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Person", "04. Person\04. Person.csproj", "{14D90154-D498-4916-B510-955B70E25D2A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5014B2D8-FDE9-4E0F-9B47-AE8301FDC84A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5014B2D8-FDE9-4E0F-9B47-AE8301FDC84A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5014B2D8-FDE9-4E0F-9B47-AE8301FDC84A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5014B2D8-FDE9-4E0F-9B47-AE8301FDC84A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14D90154-D498-4916-B510-955B70E25D2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14D90154-D498-4916-B510-955B70E25D2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14D90154-D498-4916-B510-955B70E25D2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14D90154-D498-4916-B510-955B70E25D2A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

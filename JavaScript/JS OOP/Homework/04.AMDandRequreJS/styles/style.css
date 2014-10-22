@@ -1,0 +1,13 @@
+#mainDiv {
+    width:150px;
+    background: #a4cc38;
+}
+.person-item {
+    text-align:center;
+    background: #6ecd71;
+    border:1px solid black;
+    padding:5px;
+}
+.selectedPerson {
+    text-align:center;
+}

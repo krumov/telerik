@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crowd Share</title>
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+<body>
+    <div id="chat-window">
+        <div id="posts"></div>
+        <div id="post-controls">
+           <label for="title">Title:</label> <input type="text" id="title">
+           <label for="message">Message:</label> <input type="text" id="message">
+            <button id="post">Post</button>
+        </div>
+    </div>
+
+    <div id="controls">
+        <span id="nickname"></span>
+        <div id="loginStuff">
+            <label for="user">Username: </label><input type="text" id="user">
+            <label for="password">Password: </label><input type="password" id="password">
+            <button id="login">Login</button>
+            <button id="register">Register</button>
+        </div>
+        <button id="logout">Log Out</button>
+    </div>
+
+    <script src="scripts/libs/require.js" data-main="scripts/app"></script>
+</body>
+</html>

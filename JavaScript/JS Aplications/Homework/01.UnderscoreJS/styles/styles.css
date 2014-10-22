@@ -1,0 +1,26 @@
+body{
+    background-color: lightgrey
+}
+div {
+    display: inline-block;
+}
+input {
+    margin-bottom: 10px;
+}
+#field{
+    width: 240px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 10px;
+    background-color: #47e630;
+    color: #000000;
+    border: 5px ridge darkgreen
+}
+#buttons{
+    width: 100px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 10px;
+    vertical-align: top
+}

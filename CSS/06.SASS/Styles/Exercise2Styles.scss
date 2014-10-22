@@ -1,0 +1,78 @@
+@mixin clearfixAfter {
+  zoom:1;
+
+	  &:after {
+	   content: "";
+	   display: block;
+	   height: 0;
+	   clear: both;
+	}
+}
+
+body, div, form, nav, ul, li, a, label, img, input
+{
+margin: 0;
+padding: 0;
+}
+
+ul
+{
+list-style-type: none;
+}
+
+img
+{
+height: 600px;
+width: 800px;
+border: 1px solid black;
+display: none;
+}
+
+.small_img
+{	
+display: block;	
+height: 112px;
+width: 150px;
+margin-right: 20px;	
+
+	&:hover
+	{        
+	box-shadow:black 0px 0px 15px;
+	}
+}
+
+body
+{	
+padding: 20px;
+}
+
+form
+{
+	nav
+	{	
+		& > ul
+		{
+			@include clearfixAfter;
+			& > li
+			{	
+			float: left;
+			display: inline;
+			margin-bottom: 30px;	
+			}
+		}
+	}
+
+	div
+	{	
+
+		& > input
+		{
+			display: none;
+
+			&:checked + .big_img
+			{	
+				display: block;
+			}
+		}
+	}
+}

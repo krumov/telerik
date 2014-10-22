@@ -1,0 +1,14 @@
+﻿p {
+    font-family:Consolas;
+    color:#3dcde1;
+}
+p::first-line {
+    font-weight:bold;
+   
+    
+}
+p::first-letter {
+    /*Every Eduardian Script ITC font I found was payed */
+    font-family:'Old English Text MT';
+    font-size:2em;
+}

@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.ColorBunnies", "02.ColorBunnies\02.ColorBunnies.csproj", "{9779C613-E53D-46CB-BA42-200C37D8E965}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.BinaryPasswords", "01.BinaryPasswords\01.BinaryPasswords.csproj", "{2BD02843-F289-4BF6-902D-1085CE98CEAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Divisors", "03.Divisors\03.Divisors.csproj", "{1283797F-00DA-42C0-9E39-0749B50BD48C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9779C613-E53D-46CB-BA42-200C37D8E965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9779C613-E53D-46CB-BA42-200C37D8E965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9779C613-E53D-46CB-BA42-200C37D8E965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9779C613-E53D-46CB-BA42-200C37D8E965}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BD02843-F289-4BF6-902D-1085CE98CEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BD02843-F289-4BF6-902D-1085CE98CEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BD02843-F289-4BF6-902D-1085CE98CEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BD02843-F289-4BF6-902D-1085CE98CEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1283797F-00DA-42C0-9E39-0749B50BD48C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1283797F-00DA-42C0-9E39-0749B50BD48C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1283797F-00DA-42C0-9E39-0749B50BD48C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1283797F-00DA-42C0-9E39-0749B50BD48C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,65 @@
+.js-console {
+    margin: 0;
+}
+
+body #controls {
+    margin-top: 10px;
+    left: 70%;
+    padding: 5px 10px;
+    background-color: #0d62b8;
+    width: 200px;
+    height: 200px;
+    font-family: Consolas, serif;
+    font-size: 16px;
+    color: white;
+    word-break: break-all;
+    display: inline-block;
+    position: absolute;
+}
+
+label{
+    display: inline-block;
+}
+
+#chat-window{
+    border: 2px solid #666666;
+    height:600px;
+    width:60%;
+    position: relative;
+    display: inline-block;
+
+}
+#posts{
+    padding: 10px;
+    border: 2px solid #666666;
+    border-radius: 15px;
+    width: 90%;
+    height: 70%;
+    margin: 5%;
+    position: relative;
+    overflow-style: scrollbar;
+    overflow: scroll;
+}
+
+#post-controls{
+    border: 2px solid #666666;
+    border-radius: 15px;
+    padding: 5px;
+    top:85%;
+    left: 50%;
+    position: absolute;
+}
+#message{
+    width: 300px;
+}
+
+#posts div{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-top:5px;
+    padding: 5px;
+}
+#posts div p {
+    margin-left: 20px;
+}
+

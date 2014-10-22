@@ -1,0 +1,21 @@
+﻿thead {
+    color:white;
+    background-color:#36c825;
+
+}
+th, td
+{
+    padding: 7px;
+    padding-right: 60px;
+    border-style: solid;
+    border-right-color: #A89D90;
+    border-width: 0px;
+    border-right-width: 1px;
+}
+.even {
+    background-color:#ebe4ca
+}
+
+tr.check-box {
+    border:2px outset black;
+}

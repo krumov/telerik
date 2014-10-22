@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>01. Data Types and Variables</title>
+</head>
+<body>
+    <script>
+        //01. Assign all the possible JavaScript literals to different variables.
+
+        //Boolean literals
+        var isBigger = (5 > 7);
+        console.log(isBigger); //false
+
+        //Floating-point literals
+        var floatingNumber = -5.75;
+        console.log(floatingNumber); //5.75
+
+        //Integers
+        var intNumber = 175;
+        console.log(intNumber); //175
+
+        //Object literals
+        var Sales = "Samsung";
+
+        function PhoneModels(name) {
+            if (name == "IPhone") {
+                return name;
+            } else {
+                return "Sorry, we don't sell " + name + ".";
+            }
+        }
+
+        var phone = { myPhone: "Alcatel", getPhone: PhoneModels("IPhone"), special: Sales };
+
+        console.log(phone.myPhone);   // Alcatel
+        console.log(phone.getPhone);  // IPhone
+        console.log(phone.special); // Samsung
+
+        //String literals
+        var text = "one line \nanother line";
+        console.log(text); //one line
+        //another line
+
+        //02. Create a string variable with quoted text in it.
+        var quoted = "\"How you doin'?\", Joey said.";
+        console.log(quoted); //"How you doin'?", Joey said.
+
+        //03. Try typeof on all variables you created.
+        console.log(typeof (isBiger)); //boolean
+        console.log(typeof (floatingNumber)); //number
+        console.log(typeof (intNumber)); //number
+        console.log(typeof (phone)); //object
+        console.log(typeof (text)); //string
+
+        //04. Create null, undefined variables and try typeof on them.
+        var first;
+        var second = null;
+
+        console.log(typeof (first)); //undefined
+        console.log(typeof (second)); //object
+    </script>
+</body>
+</html>

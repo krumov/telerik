@@ -1,0 +1,20 @@
+canvas {
+    display: inline-block;
+    border: 1px solid black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    background-color: rgba(76, 255, 0, 0.40);
+}
+
+#scores {
+    width: 200px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+h1{
+    font-size: 24px;
+}
+
+ol {
+    list-style: decimal;
+}

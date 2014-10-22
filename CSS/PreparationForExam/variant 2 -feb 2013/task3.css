@@ -1,0 +1,62 @@
+
+body #wrapper{
+    width: 960px;
+    font-family: Verdana, Geneva, 'DejaVu Sans', sans-serif;
+    font-size: 16px;
+    
+}
+
+form{
+    background: -webkit-linear-gradient(#8dcfde, #b1fcd7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#8dcfde, #b1fcd7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#8dcfde, #b1fcd7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#8dcfde, #b1fcd7); /* Standard syntax */
+    width:380px;
+    border:1px solid black;
+    padding:10px;
+    border-radius:15px;
+    text-align:right;
+}
+
+fieldset{
+    border: 3px solid black;
+    border-radius:5px;
+    text-align:right;
+}
+
+fieldset input{
+    background: -webkit-linear-gradient(#8dcfde, #b1fcd7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#8dcfde, #b1fcd7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#8dcfde, #b1fcd7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#8dcfde, #b1fcd7); /* Standard syntax */
+    border:1px solid #498cb3;
+    border-radius:5px;
+    height:20px;
+}
+
+fieldset legend{
+    margin-left:100px;
+    font-size:1.2em;
+    font-style:italic;
+}
+
+button, input[type=reset]{
+    background: -webkit-linear-gradient(#8dcfde, #b1fcd7); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#8dcfde, #b1fcd7); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#8dcfde, #b1fcd7); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#8dcfde, #b1fcd7); /* Standard syntax */
+    border-bottom:1px solid black;
+    border-radius:5px;
+    height:30px;
+    width:140px;
+    font-size:1.1em;
+    margin-top:10px;  
+}
+
+#tb-age{
+    width:30px;
+}
+
+button:hover, input[type=reset]:hover{
+    background-color:#b5dedd;
+}
